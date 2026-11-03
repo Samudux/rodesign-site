@@ -252,7 +252,7 @@ ul { margin: 0; padding: 0; list-style: none; }
    ========================================================================== */
 .process { padding: 112px 0; background: var(--bg-alt); }
 .process__head { max-width: 680px; margin: 0 auto 48px; text-align: center; }
-.process__head .section-title { margin: 12px 0 16px; }
+.process__head .section-title { margin: 0 0 16px; }
 .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
 .step {
   display: flex; flex-direction: column; padding: 40px;
