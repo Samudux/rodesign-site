@@ -229,7 +229,8 @@ ul { margin: 0; padding: 0; list-style: none; }
 .card:hover { border-color: var(--line-strong); transform: translateY(-2px); }
 .card[hidden] { display: none; }
 .card__media { position: relative; aspect-ratio: 4 / 3; overflow: hidden; background: var(--surface-3); }
-.card__media img { width: 100%; height: 100%; object-fit: cover; transition: transform 400ms var(--ease-out); }
+/* --focus: ponto da foto que fica visível no recorte 4:3 (padrão: centro) */
+.card__media img { width: 100%; height: 100%; object-fit: cover; object-position: var(--focus, 50% 50%); transition: transform 400ms var(--ease-out); }
 .card:hover .card__media img { transform: scale(1.03); }
 .card__badge {
   position: absolute; top: 8px; left: 8px; padding: 4px 8px; border-radius: 4px;
