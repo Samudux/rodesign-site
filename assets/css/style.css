@@ -277,7 +277,6 @@ ul { margin: 0; padding: 0; list-style: none; }
    ========================================================================== */
 .reviews { padding: 112px 0; }
 .reviews__head { display: grid; grid-template-columns: 1.3fr 1fr; align-items: end; gap: 32px; margin-bottom: 40px; }
-.reviews__head .section-title { margin-top: 12px; }
 .rating {
   display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px;
   padding: 16px; margin-bottom: 40px;
